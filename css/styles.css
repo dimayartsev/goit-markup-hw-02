@@ -1,0 +1,133 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
+body {
+   background-color: #f5f5f5ff;
+   color: var(--primary-text-color);
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   line-height: 1.7;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.logo {
+color: var(--accent-color);
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.03em;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
+
+.site-nav .link {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.site-nav .link:hover{
+    color: var(--accent-color);
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:focus{
+    color: var(--title-text-color);
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link .current{
+    color: var(--accent-color);
+    letter-spacing: 0.02em;
+}
+
+.hero-title{
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.solutions{
+    background-color: #2f303a;
+}
+.section .section-title{
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.section-list .text{
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.team{
+    background-color: #f5f4fa;
+}
+
+.link {
+    color: var(--primary-text-color);
+}
+
+.link:hover{
+    color: var(--accent-color);  
+}
+
+.link:focus {
+    color: var(--title-text-color);
+} 
+
+h3{
+    color: var(--title-text-color); 
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.button{
+    color: #ffffff;
+    background-color: var(--accent-color);
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    }
+
+.button:hover{
+    color: var(--title-text-color);
+    background-color: var(--primary-text-color);
+}
+
+.secondary-button{
+    color: #212121;
+    background-color: #f5f4fa;
+    ;
+}
+
+.secondary-button:hover{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+  }
