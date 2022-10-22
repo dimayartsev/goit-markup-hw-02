@@ -17,20 +17,34 @@ ul{
     list-style-type: none;
 }
 
-.logo {
+.logo-blue {
 color: var(--accent-color);
 font-family: 'Raleway', sans-serif;
 letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
+text-decoration: none;
 }
 
+.logo-black {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    }
+
 .site-nav .link {
+    color: var(--title-text-color);
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .site-nav .link:hover{
@@ -39,7 +53,7 @@ line-height: 1.2;
 }
 
 .site-nav .link:focus{
-    color: var(--title-text-color);
+    color: var(--accent-color);
     letter-spacing: 0.02em;
 }
 
@@ -60,6 +74,7 @@ line-height: 1.2;
 .solutions{
     background-color: #2f303a;
 }
+
 .section .section-title{
     color: var(--title-text-color);
     letter-spacing: 0.03em;
@@ -78,8 +93,9 @@ line-height: 1.2;
     background-color: #f5f4fa;
 }
 
-.link {
-    color: var(--primary-text-color);
+.link.current {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .link:hover{
@@ -87,11 +103,11 @@ line-height: 1.2;
 }
 
 .link:focus {
-    color: var(--title-text-color);
+    color: var(--accent-color);
 } 
 
 h3{
-    color: var(--title-text-color); 
+    color: var(--title-text-color);
     letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 14px;
@@ -113,13 +129,28 @@ h3{
     background-color: var(--primary-text-color);
 }
 
+.button:focus{
+    color: var(--title-text-color);
+    background-color: var(--primary-text-color);
+}
+
 .secondary-button{
     color: #212121;
     background-color: #f5f4fa;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
     ;
 }
 
 .secondary-button:hover{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.secondary-button:focus{
     color: #ffffff;
     background-color: var(--accent-color);
 }
@@ -131,3 +162,34 @@ h3{
 .text-center {
     text-align: center;
   }
+
+.footer{
+    background-color: #2f303a;
+}
+
+.link{
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.projects{
+    color: var(--title-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.projects-list{
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.88;
+    text-decoration: none;
+}
